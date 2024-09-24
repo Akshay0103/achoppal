@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Column Layout with Visibility Control</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/homeWork.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Grid Challenge 3</h1>
+      <div class="row">
+        <!-- First Column: Visible on large screens, hidden on medium and smaller -->
+        <div class="col-lg-2 d-none d-lg-block col-1 purple-col">
+          First Column (spans 2 on large, hidden on medium and smaller)
+        </div>
+
+        <!-- Second Column: Spans 6 on large, 12 on medium and smaller -->
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 col-2 red-col">
+          Second Column (spans 6 on large, 12 on medium and smaller)
+        </div>
+
+        <!-- Third Column: Spans 4 on large, 12 on medium and smaller -->
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12 col-3 green-col">
+          Third Column (spans 4 on large, 12 on medium and smaller)
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

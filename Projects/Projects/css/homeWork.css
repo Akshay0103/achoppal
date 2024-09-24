@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html body {
+  background-color: rgba(245, 245, 245, 1.00);
+}
+
+/* CSS Document */
+.purple-col {
+  background-color: blueviolet;
+  color: white;
+}
+
+.red-col {
+  background-color: red;
+  color: white;
+}
+
+.green-col {
+  background-color: green;
+  color: white;
+}
+
+.nav-bg {
+  background-color: rgba(75, 75, 75, 1.00) !important;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-link {
+  color: rgba(200, 200, 200, 1.00) !important;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.active {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+h1 {
+  font-size: 1.802em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.802em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.802em;
+  font-weight: 700;
+}
+
+
+
+h4 {
+  font-size: 1.802em;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.footer-cy {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: coral !important;
+  border-color: coral !important;
+}
+
+.btn-primary:hover {
+  border-color: rgb(0, 113, 139) !important;
+  background-color: rgb(0, 113, 139) !important;
+}
+
+.carousel-padding {
+  padding-left: 125px;
+  padding-right: 125px;
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(0, 113, 139)
+}
